@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>first project</title>
+    <style>
+       table,th,tr,td{
+           border: 1px black solid ;
+           border-collapse: collapse;
+       }
+       ul{
+           list-style-type:none ;
+           background-color:rgb(68, 134, 179) ;
+           overflow: hidden;
+       } 
+       li{
+        float: left;  
+    }
+       li a{
+        
+           padding: 20px;
+     display: block;
+     color:white;
+     text-align: center;
+        }
+    </style>
+</head>
+<body align="center">
+<ul>
+    <li><a href="#home">home</a></li>
+    <li><a href="#news">news</a></li>
+    <li><a href="#contact">contact</a></li>
+    <li><a href="#about">about</a></li>
+
+</ul>
+<br>
+<br>
+<br>
+<table align="center">
+    <tr>
+        <th></th>
+        <th>mon</th>
+        <th>tue</th>
+        <th>wed</th>
+        <th>thu</th>
+        <th>fri</th>
+    </tr>
+    <tr>
+        <td>1:00</td>
+        <td rowspan="2" bgcolor="yellow">html</td>
+        <td></td>
+        <td rowspan="2" bgcolor="brown">html</td>
+        <td rowspan="8" bgcolor="brown">html hour by apps</td>
+        <td rowspan="2" bgcolor="brown">html</td>
+
+    </tr>
+<tr>
+    <td>3:00</td>
+    <td rowspan="2" bgcolor="grey">deptmeeting</td>
+
+</tr>
+<tr>
+    <td>2:00</td>
+    <td rowspan="3" bgcolor="green">css</td>
+    <td rowspan="3" bgcolor="green">css</td>
+    <td rowspan="3" bgcolor="green">css</td>
+</tr>
+<tr>
+    <td>3:00</td>
+    <td></td>
+</tr>
+<tr>
+    <td>5:00</td>
+    <td rowspan="3" bgcolor="grey">ec meeting</td>
+</tr>
+<tr>
+    <td>3:30</td>
+    <td rowspan="3" bgcolor="blue">csc205</td>
+    <td rowspan="3" bgcolor="blue">csc205</td>
+    <td rowspan="3" bgcolor="blue">csc205</td>
+
+</tr>
+<tr><td>3:30</td>
+</tr>
+<tr>
+    <td>5:00</td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+<img src="image.jpg" alt="link img" usemap="#img">
+<map name="img">
+<area shape="rect" coords="128,91,259,59" href="https://ar-ar.facebook.com/">
+<area shape="rect" coords="33,59,152,21" href="https://www.instagram.com/">
+<area shape="rect" coords="43,164,77,141" href="https://www.youtube.com/">
+</map>
+</body>
+</html>
